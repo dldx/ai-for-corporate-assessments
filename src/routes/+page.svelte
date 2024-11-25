@@ -151,7 +151,7 @@
 			<div class="m-8 grid xl:m-16 {grid_n_cols} items-stretch gap-3">
 				<Transition order={1} enter="fade-enter" do={() => (grid_n_cols = 'grid-cols-1')}>
 					<div
-						class="flex h-[80vh] w-[30vw] flex-col border-2 border-[var(--r-climate-rag-color)] bg-[var(--r-background-color)] p-4 xl:p-8"
+						class="flex h-[70vh] w-[30vw] flex-col border-2 border-[var(--r-climate-rag-color)] bg-[var(--r-background-color)] p-4 xl:p-8"
 					>
 						<h2 class="mb-5 text-xl xl:text-2xl">
 							LLMs (eg. <a href="https://chatgpt.com" target="_blank" class="text-neutral-100"
@@ -187,7 +187,7 @@
 				</Transition>
 				<Transition enter="fade-enter" do={() => (grid_n_cols = 'grid-cols-2')}>
 					<div
-						class="flex h-[80vh] w-[30vw] flex-col border-2 border-[var(--r-climate-rag-color)] bg-[var(--r-background-color)] p-4 xl:p-8"
+						class="flex h-[70vh] w-[30vw] flex-col border-2 border-[var(--r-climate-rag-color)] bg-[var(--r-background-color)] p-4 xl:p-8"
 					>
 						<h2 class="mb-5 text-xl xl:text-2xl">
 							AI-guided search (eg. <a
@@ -231,7 +231,7 @@
 				</Transition>
 				<Transition enter="fade-enter" do={() => (grid_n_cols = 'grid-cols-3')}>
 					<div
-						class="flex h-[80vh] w-[30vw] flex-col border-2 border-[var(--r-climate-rag-color)] bg-[var(--r-background-color)] p-4 xl:p-8"
+						class="flex h-[70vh] w-[30vw] flex-col border-2 border-[var(--r-climate-rag-color)] bg-[var(--r-background-color)] p-4 xl:p-8"
 					>
 						<h2 class="mb-5 text-xl xl:text-2xl">Retrieval augmented generation</h2>
 						<ul class="flex list-disc flex-col gap-4 pl-5 text-left text-sm xl:text-xl">
