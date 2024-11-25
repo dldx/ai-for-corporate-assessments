@@ -538,6 +538,18 @@
 							have an ethical compass so it's up to the user to ensure the questions are fair.
 						</div>
 					</Transition>
+					<Transition enter="fade-enter" do={() => (imageToDisplay = 'data-privacy')}>
+						<div class="problem {imageToDisplay == 'data-privacy' ? 'highlighted-ethics' : ''}">
+							Ensure that data privacy is maintained and that the data used is not sensitive or
+							personal.
+						</div>
+					</Transition>
+					<Transition enter="fade-enter" do={() => (imageToDisplay = 'ai-judgements')}>
+						<div class="problem {imageToDisplay == 'ai-judgements' ? 'highlighted-ethics' : ''}">
+							AI models should never be used to pass judgment or rate corporates. This could lead
+							to legal issues and is ethically questionable.
+						</div>
+					</Transition>
 				</div>
 				<div class="flex place-content-center place-items-center">
 					<div class="w-[30vw]">
